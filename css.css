@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #575757;
+    background-color: #1b1b1b; /* Изменяем фон body на светло-серый */
+}
+header {
+    background: #1b1b1b;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between; /* Распределяет элементы между краями */
+    align-items: center;             /* Выравнивает элементы по вертикали */
+}
+header h1 {
+    display: inline-block;
+  }
+header p {
+    display: inline-block;
+    
+    
+}
+div img{
+    max-width: 100px; /* Ограничиваем максимальную ширину изображения */
+    height: auto;     /* Сохраняем пропорции */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #1c1b1b;
+    padding: 10px;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    color: rgb(148, 148, 148);
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
